@@ -9,33 +9,38 @@ export default function Home() {
           ClearInk connects you with trusted tattoo removal providers in Denver.
         </p>
 
-        <form className="max-w-md mx-auto space-y-4">
+        <form
+          className="max-w-md mx-auto space-y-4"
+          action="https://script.google.com/macros/s/AKfycbytGUccgf9qxgnVr-4ZEpdbkbQS7fex3cKsBd5-_3T18S9cGZfr_h0CSIbiC8YjtRMy/exec"
+          method="POST"
+        >
           <input
             type="text"
+            name="zip"
             placeholder="ZIP Code"
             className="w-full border rounded p-3"
             required
           />
-          <select className="w-full border rounded p-3" required>
+          <select name="size" className="w-full border rounded p-3" required>
             <option value="">Tattoo size</option>
             <option>Small</option>
             <option>Medium</option>
             <option>Large</option>
           </select>
-          <select className="w-full border rounded p-3" required>
+          <select name="color" className="w-full border rounded p-3" required>
             <option value="">Tattoo color</option>
             <option>Mostly black</option>
             <option>Some color</option>
             <option>Heavy color</option>
           </select>
-          <select className="w-full border rounded p-3" required>
+          <select name="age" className="w-full border rounded p-3" required>
             <option value="">How old is your tattoo?</option>
             <option>Less than 1 year</option>
             <option>1–3 years</option>
             <option>3–7 years</option>
             <option>7+ years</option>
           </select>
-          <select className="w-full border rounded p-3" required>
+          <select name="start" className="w-full border rounded p-3" required>
             <option value="">When do you want to start?</option>
             <option>ASAP</option>
             <option>1–3 months</option>
@@ -65,4 +70,3 @@ export default function Home() {
     </main>
   );
 }
-
