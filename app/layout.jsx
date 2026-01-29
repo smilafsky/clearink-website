@@ -1,6 +1,8 @@
+import "./globals.css";
+
 export const metadata = {
-  title: "ClearInk",
-  description: "Tattoo removal leads made simple"
+  title: "ClearInk | Denver Tattoo Removal Matching",
+  description: "Get matched with trusted Denver tattoo removal providers.",
 };
 
 export default function RootLayout({ children }) {
