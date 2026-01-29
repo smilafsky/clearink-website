@@ -12,7 +12,7 @@ export default function Home() {
 
         <form
           className="max-w-md mx-auto space-y-4"
-          action="https://script.google.com/macros/s/AKfycbytGUccgf9qxgnVr-4ZEpdbkbQS7fex3cKsBd5-_3T18S9cGZfr_h0CSIbiC8YjtRMy/exec"
+          action="https://script.google.com/macros/s/AKfycbxcRCxWc-w_rVAFpBM-M5lpxjvs15ffKRy0jO--nEJHN1YcgbRuO2UkQiWAxApL7POT/exec"
           method="POST"
         >
           <input
