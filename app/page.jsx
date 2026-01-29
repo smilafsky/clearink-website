@@ -54,6 +54,10 @@ export default function Home() {
             Get Matched
           </button>
         </form>
+
+        <p className="text-sm text-gray-500 mt-2">
+          We never sell your information. Only local Denver providers receive your request.
+        </p>
       </section>
 
       <section className="px-6 py-16 bg-gray-100 text-center">
