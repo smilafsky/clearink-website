@@ -3,10 +3,11 @@ export default function Home() {
     <main className="min-h-screen bg-white text-gray-900">
       <section className="px-6 py-16 text-center">
         <h1 className="text-4xl font-bold mb-4">
-          Tattoo Removal, Made Simple
+          Tattoo Removal in Denver, Made Simple
         </h1>
-        <p className="text-lg mb-8">
-          ClearInk connects you with trusted tattoo removal providers in Denver.
+        <p className="text-lg mb-6">
+          ClearInk connects you with <strong>trusted local tattoo removal providers</strong> in Denver.
+          Get matched in minutes and start your journey to clear skin.
         </p>
 
         <form
@@ -14,6 +15,27 @@ export default function Home() {
           action="https://script.google.com/macros/s/AKfycbytGUccgf9qxgnVr-4ZEpdbkbQS7fex3cKsBd5-_3T18S9cGZfr_h0CSIbiC8YjtRMy/exec"
           method="POST"
         >
+          <input
+            type="text"
+            name="name"
+            placeholder="Full Name"
+            className="w-full border rounded p-3"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            className="w-full border rounded p-3"
+            required
+          />
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Phone Number (optional)"
+            className="w-full border rounded p-3"
+          />
+
           <input
             type="text"
             name="zip"
@@ -56,8 +78,14 @@ export default function Home() {
         </form>
 
         <p className="text-sm text-gray-500 mt-2">
-          We never sell your information. Only local Denver providers receive your request.
+          ✅ We never sell your info. Only trusted Denver providers receive your request.
         </p>
+
+        <div className="mt-4 flex justify-center space-x-4">
+          <span className="text-sm text-green-600 font-semibold">Trusted Providers</span>
+          <span className="text-sm text-green-600 font-semibold">Secure & Private</span>
+          <span className="text-sm text-green-600 font-semibold">Fast Matches</span>
+        </div>
       </section>
 
       <section className="px-6 py-16 bg-gray-100 text-center">
@@ -65,7 +93,8 @@ export default function Home() {
           Are You a Tattoo Removal Provider?
         </h2>
         <p className="mb-6">
-          ClearInk sends you high-intent local leads actively looking for removal.
+          ClearInk sends you <strong>high-intent local leads</strong> actively looking for removal.  
+          Increase bookings with minimal effort.
         </p>
         <button className="bg-black text-white px-6 py-3 rounded font-semibold">
           Partner With ClearInk
